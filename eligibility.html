@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/static/style.css">
+<style>
+body{ background-image:url("/static/voting.jpg"); }
+</style>
+</head>
+
+<body>
+<div class="card">
+    <h2>Voter Details</h2>
+    <p>Name: {{ voter.name }}</p>
+    <p>Age: {{ voter.age }}</p>
+    <p>Status: {{ voter.status }}</p>
+    <a href="/face">Proceed</a>
+</div>
+</body>
+</html>
