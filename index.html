@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Website</title>
+<meta charset="UTF-8">
+<title>Online Voting System</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial;
+    background-image:url("https://images.unsplash.com/photo-1606925797300-0a0a1a0e6c0c");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.4);
+    height:100vh;
+    padding-top:80px;
+}
+
+h1{
+    font-size:40px;
+}
+
+.steps{
+    margin-top:30px;
+    font-size:18px;
+}
+
+.steps p{
+    margin:10px;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.btn{
+    padding:12px 25px;
+    margin:10px;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.start{
+    background:#00b300;
+}
+
+.admin{
+    background:#33b5e5;
+}
+
+.logout{
+    background:#ff3333;
+}
+
+</style>
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This website is hosted using GitHub Pages.</p>
+
+<div class="overlay">
+
+<h2>Welcome to Online Voting System</h2>
+<h1>ONLINE VOTING SYSTEM</h1>
+
+<div class="steps">
+<h3>Voting Steps:</h3>
+
+<p>👉 Aadhaar Verification</p>
+<p>👉 Voter Details Verified</p>
+<p>👉 Face Recognition</p>
+<p>👉 Fingerprint Authentication</p>
+<p>👉 Select Candidate</p>
+<p>👉 Vote Submitted</p>
+</div>
+
+<div class="buttons">
+<button class="btn start">Start Voting</button>
+<button class="btn admin">Admin Dashboard</button>
+<button class="btn logout">Logout</button>
+</div>
+
+</div>
+
 </body>
 </html>
